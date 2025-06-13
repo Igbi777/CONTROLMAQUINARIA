@@ -38,8 +38,8 @@ def conectar_bd():
         try:
             conexion = mysql.connector.connect(
                 host="localhost",
-                user="root",  # Reemplaza con tu usuario de MySQL
-                password="",  # Reemplaza con tu contraseña de MySQL
+                user="root",  
+                password="", 
                 database="pruebas"
             )
             cursor = conexion.cursor()
